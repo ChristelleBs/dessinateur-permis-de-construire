@@ -1,0 +1,67 @@
+/*
+Theme Name: Kadence Child
+Theme URI: https://www.kadencewp.com/kadence-theme/
+Template: kadence
+Author: Kadence WP
+Author URI: https://www.kadencewp.com/
+Description: Kadence Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. It features an easy to use drag and drop header and footer builder to build any type of header in minutes. It features a full library of gorgeous starter templates that are easy to modify with our intelligent global font and color controls. With extensive integration with the most popular 3rd party plugins, you can quickly build impressive ecommerce websites, course websites, business websites, and more.
+Tags: translation-ready,two-columns,right-sidebar,left-sidebar,footer-widgets,blog,custom-logo,custom-background,custom-menu,rtl-language-support,editor-style,threaded-comments,custom-colors,featured-images,wide-blocks,full-width-template,theme-options,e-commerce
+Version: 1.2.7.1722585432
+Updated: 2024-08-02 07:57:12
+
+*/
+/* Responsive Mobile Page A Propos */
+@media (max-width: 768px) {
+    .kt-inside-inner-col h3 {
+        font-size: 23px !important;
+    }
+
+    .kt-adv-heading1438_76c61e-70.wp-block-kadence-advancedheading.has-theme-palette-9-color.has-text-color {
+        font-size: 26px !important;
+    }
+
+    .kt-adv-heading1438_9fa7d6-7f.wp-block-kadence-advancedheading.has-theme-palette-9-color.has-text-color {
+        margin-top: -50px;
+    }
+
+    .kt-adv-heading1438_29e1e3-5b.wp-block-kadence-advancedheading.has-theme-palette-9-color.has-text-color {
+        font-size: 16px !important;
+    }
+
+    .kt-adv-heading1438_9f27a8-94.wp-block-kadence-advancedheading.has-theme-palette-9-color.has-text-color {
+        font-size: 20px !important;
+    }
+
+    .kt-row-column-wrap.kt-has-1-columns.kt-row-layout-equal.kt-tab-layout-inherit.kt-mobile-layout-row.kt-row-valign-top.kb-theme-content-width h2 {
+        font-size: 23px !important;
+    }
+
+    .kt-row-column-wrap.kt-has-1-columns.kt-row-layout-equal.kt-tab-layout-inherit.kt-mobile-layout-row.kt-row-valign-top.kb-theme-content-width p {
+        font-size: 15px !important;
+    }
+
+    .kt-inside-inner-col {
+        display: none;
+    }
+
+}
+
+/* Barre de Navigation flottante */
+.site-header-row-container-inner {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    padding-bottom: 14px;
+    width: 100%;
+    z-index: 1000;
+    /* background-color: rgba(0, 0, 0, 0.45) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+
+}
+
+#primary-menu {
+    background-color: rgba(0, 0, 0, 0.40) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
