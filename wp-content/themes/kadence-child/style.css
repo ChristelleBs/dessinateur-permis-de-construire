@@ -32,7 +32,7 @@ Updated: 2024-08-02 07:57:12
 /* Page Mentions légales */
 .entry-content-wrap {
     padding-top: 0;
-    margin-top: -50px;
+    margin-top: -25px;
 }
 
 .entry-header.page-title.title-align-inherit.title-tablet-align-inherit.title-mobile-align-inherit {
@@ -41,6 +41,20 @@ Updated: 2024-08-02 07:57:12
 
 .wp-block-heading {
     font-size: 40px;
+}
+
+/* Bas de page - Formulaire */
+.wp-block-kadence-column.kadence-column1484_2f4b2a-3d.inner-column-1,
+.wp-block-kadence-column.kadence-column2568_4edf90-87.inner-column-1,
+.wp-block-kadence-column.kadence-column3127_9f6d43-95.inner-column-1 {
+    display: block;
+    margin-top: 40px;
+    padding-top: 45px;
+}
+
+/* Pied de page */
+.wp-image-3738 {
+    border-radius: 5px;
 }
 
 /* Mobile */
@@ -54,6 +68,17 @@ Updated: 2024-08-02 07:57:12
     .kt-adv-heading1484_397045-8e.wp-block-kadence-advancedheading,
     .kt-adv-heading1484_873c19-18.wp-block-kadence-advancedheading,
     .kt-adv-heading1484_205c6a-43.wp-block-kadence-advancedheading {
+        padding: 15px !important;
+    }
+
+    /* Page DP */
+    .kt-adv-heading1484_3dcf88-79.wp-block-kadence-advancedheading,
+    .kt-adv-heading1484_0796bd-d7.wp-block-kadence-advancedheading,
+    .kt-adv-heading1484_fd1cea-05.wp-block-kadence-advancedheading,
+    .kt-adv-heading1484_61856e-c3.wp-block-kadence-advancedheading,
+
+    .kt-adv-heading1484_02cff5-98.wp-block-kadence-advancedheading,
+    .kt-adv-heading1484_f4dc50-c4.wp-block-kadence-advancedheading {
         padding: 15px;
     }
 
@@ -65,10 +90,10 @@ Updated: 2024-08-02 07:57:12
     .kt-adv-heading2568_095b58-b8.wp-block-kadence-advancedheading,
     .kt-adv-heading2568_05a6d5-9a.wp-block-kadence-advancedheading,
     .kt-adv-heading2568_36c85c-2c.wp-block-kadence-advancedheading {
-        padding: 15px;
+        padding: 15px !important;
     }
 
-    /* Page PC */
+    /* Page PC RE?*/
     /* Titres h1 h2*/
     .kt-adv-heading3127_a68c59-aa.wp-block-kadence-advancedheading,
     .kt-adv-heading3127_a13198-ee.wp-block-kadence-advancedheading,
@@ -131,5 +156,37 @@ Updated: 2024-08-02 07:57:12
     .wp-block-heading {
         font-size: 25px;
     }
+
+    /* Bas de page - Formulaire */
+    .wp-block-heading.has-large-font-size {
+        margin: 0px;
+
+    }
+
+}
+
+/* Tablette */
+@media only screen and (max-width: 1024px) {
+
+    /* Page Accueil */
+    .kadence-blocks-gallery-item__caption strong {
+        font-size: 20px !important;
+    }
+
+    /* Img Pied De Page */
+    .wp-image-1921 {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    .site-top-footer-inner-wrap.site-footer-row.site-footer-row-columns-5.site-footer-row-column-layout-equal.site-footer-row-tablet-column-layout-default.site-footer-row-mobile-column-layout-row.ft-ro-dir-row.ft-ro-collapse-normal.ft-ro-t-dir-default.ft-ro-m-dir-default.ft-ro-lstyle-plain {
+        padding: 40px;
+    }
+
+    /* Page A propos */
+    .kt-inside-inner-col {
+        display: block !important;
+    }
+
 
 }
